@@ -1,0 +1,15 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-direction: row;
+}
+
+.new-expense__control {
+  flex: 50%;
+  margin: 0, 0, 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+}

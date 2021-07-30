@@ -47,6 +47,7 @@ function App() {
         </a>
         <ExpenseItem />
       </header> */}
+      <NewExpense />
       <Expenses expenses={expenses} />
     </div>
   );
