@@ -19,24 +19,20 @@ function App() {
       date: new Date(2021, 2, 12),
     },
     {
-      id: "e3",
-      title: "New TV",
-      amount: 799.49,
-      date: new Date(2021, 2, 28),
-    },
-    {
       id: "e4",
       title: "New Desk",
       amount: 450,
-      date: new Date(2021, 5, 12),
+      date: new Date(2020, 5, 12),
+    },
+    {
+      id: "e3",
+      title: "New TV",
+      amount: 799.49,
+      date: new Date(2019, 2, 28),
     },
   ];
   const [expense, setExpense] = useState(INITIAL_EXPENSE);
   const addExpenseHandler = (newExpense) => {
-    // expenses.push(newExpenseData);
-    // setExpense(expenses);
-    // console.log("app.js", newExpenseData, expenses);
-
     setExpense((prevState) => [newExpense, ...prevState]);
   };
   return (
