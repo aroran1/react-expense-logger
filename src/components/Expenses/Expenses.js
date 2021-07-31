@@ -2,6 +2,7 @@ import ExpenseItem from "./ExpenseItem/ExpenseItem";
 import "./Expenses.css";
 
 const Expenses = (props) => {
+  console.log("Expenses", props);
   return (
     <div className="expenses">
       {props.expenses.map((item) => (
