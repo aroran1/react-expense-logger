@@ -1,3 +1,10 @@
+# Expense Logger
+
+![Alt text](./src/images/expenselogger1.png?raw=true "Final Look")
+![Alt text](./src/images/expenselogger2.png?raw=true "Final Look with form")
+
+[Instructor project](https://github.com/pablomaribondo/expense-tracker)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
